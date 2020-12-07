@@ -1,0 +1,24 @@
+.mbody3{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:3%;
+}
+.sa{
+    width:100%;
+}
+.dropdown{
+    display:grid;
+    place-items: start;
+    padding:1.6%
+}
+.sub{
+    width:100%;
+    font-family:montserrat,serif;
+    display:grid;
+    place-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}

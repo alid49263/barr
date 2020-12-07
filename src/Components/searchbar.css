@@ -1,0 +1,32 @@
+.search{
+    height:10vh;
+    width:100%;
+    display:flex;
+    flex-wrap: nowrap;
+    place-items: center;
+    justify-content: flex-end;
+    background-color: #e6dede;
+    grid-template-columns: 1fr,1fr;
+    border-bottom:0.1px solid ;
+    padding-right: 1%;
+    border-color:#d6d3d3 ;
+}
+.logo{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    padding:2%;
+    cursor:pointer
+}
+.s_icon{
+    display:grid;
+    place-items: center;
+    margin-left: 5%;
+    margin-right: 2%;
+    color:#f8f6f6;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.s_icon:hover{
+    transform:scale(1.05);
+    opacity:0.9;
+}
